@@ -29,7 +29,7 @@ class TestCase(unittest.TestCase):
 
         # assert the response data
         self.assertEqual(result.data,
-                         b'<h2>Hello, World!</h2>')
+                         b'<h2>Hello, World!</h2> <br> CI/CD is awesome!')
 
 
 if __name__ == "__main__":
